@@ -1,0 +1,74 @@
+@charset "utf-8";
+body{ background-color:#feb300;}
+header{ height:5.67rem; padding-top:2.37rem; }
+header .header_bg{ position:absolute; width:100%; height:auto; left:0rem; top:0rem; z-index:-1;}
+.banner img{ display: block; width: 100%}
+.cd76{ color: #d76000}
+.pdT24{ padding-top: 0.32rem}
+.pd24_0{ padding: 0.32rem 0}
+.gift img{ width:5.306666666666667rem; height: 1.946666666666667rem; display: block; margin: 0 auto }
+
+/*-----倒计时标题----*/
+.countdownWrap{background:url(../image/jinBi.png) right -0.13rem no-repeat; background-size:1.6rem 1.173rem; width: 100%}
+.countdown{text-align:center; position:relative;background:url(../image/timeBg.png); background-size: 7.38rem; width: 7.38rem; height:2.73rem;line-height:2.53rem; margin: 0 auto; font-size: 1.467rem; color: #fff; margin-top: -0.13rem}
+
+/*-----活动标题----*/
+.openCardTitle h4{ position:relative; z-index:1;text-align:center;  color:#fff; margin:auto;background:url(../image/title.png); background-repeat:no-repeat; background-size:5.72rem 1.186666666666667rem; width:5.72rem; height:1.186666666666667rem; line-height:0.8rem; font-size:0.48rem; }
+
+/*-----圆角背景----*/
+.content{  background:#fef5e4; border-radius:0.13rem; }
+/*-----挑战记录----*/
+.challengeRecord li{height: 1.13rem; padding: 0.26rem 0  }
+.challengeRecord li dl:nth-child(odd){ margin-right: 0.22rem}
+.challengeRecord li dl{ position: relative;float: left;}
+.challengeRecord li dt{ width:1.13rem; height: 1.13rem; border-radius: 50%; padding: 0.06rem; background: #fff; box-shadow:0 0 0.09rem rgba(212,90,41,0.5); position: absolute; top:-0.08rem }
+.challengeRecord li dt img{ width:1.13rem; height: 1.13rem; border-radius: 50%;   }
+.challengeRecord li dd{ width:2.37rem; padding-right:0.33rem; line-height: 1.6; height:1.13rem; background: #fff; border-radius: 0.6rem; box-shadow:0 0 0.1rem rgba(212,90,41,0.3); padding-left: 1.53rem;   }
+.challengeRecord li dd h5,.challengeRecord li dd p{overflow:hidden;text-overflow:ellipsis;　white-space:nowrap; height:0.55rem; line-height:0.55rem;}
+
+
+/*-----排行榜重置----*/
+.record{ background:none;}
+.record li{  color:#d76000; border:0 }
+.nickName{ width: 2rem!important; display: block; overflow: hidden;  text-overflow:ellipsis;  white-space: nowrap; float: left }
+.sale{ display: block; width: 2rem !important; overflow: hidden;  text-overflow:ellipsis;  white-space: nowrap; float: left; margin-left: 0.9rem; text-align: center}
+
+
+.mapBtn input,.moreStores a{background:#ff942b; height: 1.3rem; line-height: 1.3rem}
+.mapBtn:after,.moreStores:after{background:none;}
+
+.createAlso input{ color:#fff;background:#EC40BD;}
+.copRight{ color:#fff}
+.fixedNav a{ background:#e8244a}
+.fixedNav a:nth-child(2){background:#f3e030; color:#e8244a}
+/*---剩余次数-----*/
+.surplus{ height:1rem; line-height:1rem; background:#e8244a; border-radius:0.3467rem 0.3467rem 0 0; width:6.21333rem; margin:auto; text-align:center; font-size:0.413rem; color:#fff}
+.surplus em{ color:#ffdd41}
+/*主体*/
+.main {background:url(../image/buttonBg.png) center 0; background-size: 100%; width:10rem; height:3.693333333333333rem;  }
+.main h2 { text-align: center; color: #e30209;-webkit-text-stroke:1px rgba(255,255,255,0.4) }
+.popUpTab input.tjBtn{ background:#622fad}
+.button{ display: block;  margin: 0.13rem auto; width:2.973333333333333rem;height: 2.973333333333333rem; background: url(../image/button.png); background-size:2.973333333333333rem; text-align: center;    line-height:2.973333333333333rem; }
+.button span{ font-size: 0.7rem; font-weight: bold; background-image:-webkit-linear-gradient(right,#bb4d0e,#f37d23,#c95616);  -webkit-background-clip:text; -webkit-text-fill-color:transparent;}
+.font52{ font-size:0.693rem; }
+.c580{ color:#580b0b}
+/*倒计时*/
+.daoJiShi{ background:#ff6f2b; padding: 0.13rem 0.32rem; border-radius: 0.13rem 0.13rem 0 0; color: #fff ; font-size: 0.37rem}
+.daoJiShi em{ position:relative;  display:inline-block; background:rgba(255,255,255,0.3); height:0.65rem; line-height:0.65rem;;color:#fff; padding:0 0.1rem;  margin:0 0.1rem; border-radius:0.13rem;}
+.daoJiShi .countdownC{  margin:0.13rem; padding:0.013rem 0.2rem; margin-bottom:0; display: inline-block}
+
+/*多门店字体颜色*/
+.stores li{ border-bottom:1px solid #efe7d9;}
+.stores .c9,.stores li div{ color:#666}
+.mapBtn{ height: auto!important}
+
+#mask .blin{width: 100%; height: 100%; background-image: url(../../commonIMG/gold.png); -o-animation: circle 10s linear infinite; -ms-animation: circle 10s linear infinite; -moz-animation: circle 10s linear infinite; -webkit-animation: circle 10s linear infinite; animation: circle 10s linear infinite;}
+@keyframes circle{0%{-o-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg);} 100%{-o-transform: rotate(360deg); -ms-transform: rotate(360deg); -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);}}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+

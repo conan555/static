@@ -1,0 +1,104 @@
+@charset "utf-8";
+body{ background:#C4F0FE url(../image/bg.jpg) no-repeat center top; background-size:100%;}
+
+/*头部*/
+header{padding:1.2rem 0 0;}
+.block_home_slider .flex-control-paging{ bottom:0}
+
+/*活动主题*/
+.summary{text-align:center; margin:1.2rem 0.32rem 1.28rem; position:relative; background-color:#38D0EC; border-radius:0.4rem; border:0.04rem dashed #029EB1;}
+.summary p{ display:inline-block; padding:0.4rem; color:#fff; line-height:0.64rem;}
+
+.content{ margin:0 0.72rem; background-color:#fff; padding:0.32rem; border-bottom-left-radius:0.16rem;border-bottom-right-radius:0.16rem;}
+
+/*标题*/
+.title{ margin:0 0.32rem; height:0.9866666666666667rem; line-height:0.9866666666666667rem; text-align:center; font-size:0.4533333333333333rem; color:#0aa0d7; background:url(../image/title.png) no-repeat center; background-size:100%; font-weight:normal;}
+.title span{ display:inline-block; position:relative;}
+.title span:before,.title span:after{ content:""; display:inline-block; width:0.2666666666666667rem; height:0.3333333333333333rem; background:url(../image/title_tag.png) no-repeat; background-size:100%; position:absolute; top:50%; margin-top:-0.1666666666666667rem;}
+.title span:before{left:-0.6rem;}
+.title span:after{right:-0.6rem; transform:rotateY(180deg)}
+
+/*活动倒计时*/
+.countdown{ text-align:center; font-size:0.4rem;}
+.countdown .content{ padding:0.56rem 0;}
+.countdown span{ display:inline-block; margin-right:0.267rem;}
+.countdown span em{ display:inline-flex; justify-content: center; align-items:center;text-align:center; background:#39BBEB; border-radius:0.267rem; padding:0 0.14rem; height:0.88rem; font-size:0.48rem; font-weight:bold; color:#fff; margin-right:0.1333rem;}
+
+/*联盟商家*/
+.merchant .content{ padding:0.32rem 0.16rem;}
+.merchant_scroll{width:100%;  overflow:hidden; position:relative; }
+.merchant_scroll .bd ul{ overflow:hidden; zoom:1; }
+.merchant_scroll .bd ul li{ text-align:center; zoom:1; }
+.merchant_scroll .bd ul li .pic{ text-align:center; display:inline-block; width:33.33%; float:left; padding:0 0.16rem; box-sizing:border-box;}
+.merchant_scroll .bd ul li .pic a{ display:block;}
+.merchant_scroll .bd ul li .pic img{ display:block; width:2.6928rem; height:2.6928rem;}
+.merchant_scroll .bd ul li .pic p{ line-height:1.04rem; font-size:0.3733333333333333rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+
+/*-----谁参与了活动-内容部分---*/
+.num ul {font-size:0.32rem; }
+.num ul li{ width:14.28%; padding:0.16rem; box-sizing:border-box; display:inline-block; float:left; margin:0;}
+.num li span{display: block; height: 0.4rem; line-height: 0.4rem; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.num img{width:0.8533333333333333rem; height: 0.8533333333333333rem; border-radius:50%;display: block; margin: 0 auto; margin-bottom: 0.16rem; border:none;}
+
+/*领奖记录*/
+.prize_record li dt img{ border-radius:50%;}
+.prize_record li dd span:nth-child(2){ width:28%;}
+.prize_record li dd span:nth-child(3){ width:38.66%; text-align:center;}
+
+/*邀请排行榜*/
+.union_rank .content{padding:0.32rem 0;}
+.union_rank .paihang li em{ right:0.32rem;}
+.union_rank .paihang li span{ color:#fff;}
+
+/*联盟优惠券*/
+.card_con{ margin:0 0.32rem;}
+.quanList li{ margin-bottom:0.267rem; position:relative;}
+.quanList li figure{ position:absolute; left:0; top:0; width:100%}
+.quanList li .txtContent{ position:relative; z-index:1;}
+.quanList li .txtContent span.receive{ display:block; color:#fff; border-left:1px dashed #fff; width:20%; text-align:center; height:2.0rem; position:absolute; right:0; top:0; font-size:0.526rem; line-height:0.7rem;     padding: 0.33rem 2% 0; box-sizing: border-box;}
+.quanList li .txtContent span.received{ color:#ccc; opacity:0.4}
+.quanList li a{ width:80%; display:block;color:#fff}
+.quanList li dl{ padding-left:2.7%; height:1.81rem; padding-top:0.32rem}
+.quanList li dl dt{ width:1.306rem; height:1.306rem;float:left; }
+.quanList li dl dt img{ width:100%; height:100%; border-radius:50%; }
+.quanList li dl dd{ float:left; padding-left:0.13rem; width:5.2rem; overflow:hidden}
+.quanList li dl dd p{ height:0.45rem; line-height:0.45rem; overflow:hidden; font-size:0.32rem}
+.quanList li dl dd p:nth-child(1){ font-size:0.426rem; height:0.52rem; line-height:0.52rem; margin-bottom:0.1rem; overflow:hidden}
+.quanList li .txtContent section{ height:0.8rem; line-height:0.8rem; overflow:hidden; font-size:0.32rem; color:#282828; display:block; padding:0 2.7%}
+
+/*点击次数*/
+.click_num{ display:block;height:0.6933333333333333rem;padding:0 0.84rem 0 0.16rem;  position:fixed; top:6rem; left:0; background-color:#F95050; color:#fff; box-shadow:0 0 5px #3d8aa2; display:flex; align-items:center; z-index:9;}
+.click_num span{ width:0.9866666666666667rem; height:0.9866666666666667rem; text-align:center; border-radius:50%; position:absolute; right:-0.32rem; top:-0.12rem; background-color:#F95050; box-shadow:-3px 0 5px #e13535; display:flex;justify-content: center; align-items:center;}
+
+/*-----底部按钮--*/
+.union_fixednav a{background: #F25746; color: #fff; width:100%;}
+.union_fixednav a.pickup{ background-color:#00C77F;}
+.union_fixednav a.picked{ background-color:#FDA410;}
+
+/*我也要创建活动*/
+.createAlso input{ color:#fff; background-color:#38D0EC;}
+
+/*版权*/
+.copRight{ color:#38CFEB}
+.copRight span{ color:#1CADC9; }
+
+/*返回我的活动页*/
+.go_back{ margin:0 0.56rem;}
+.go_back a{width:100%; display:block; color:#FDF247; background:#4ea7f1; border-radius:0.96rem; height:0.96rem; line-height:0.96rem; -webkit-appearance: none;font-size:0.48rem; position:relative; text-align:center;}
+.go_back a:after{ position:absolute; content:''; width:100%;height:0.96rem; top:0.1rem; background:#2385d6; left:0; border-radius:0.96rem; z-index:-1;box-shadow:0 0 0.32rem #1C74B9;}
+
+
+/*文章页*/
+.article_title{ padding:0.48rem 0.32rem; font-size:0.5333333333333333rem; font-weight:normal; line-height:0.7733333333333333rem;}
+.article_time{ padding:0 0.32rem; font-size:0.3733333333333333rem; color:#acacac;}
+.article_time span{margin-right:0.48rem;}
+.article_time .author{color:#4c5e7f;}
+.article_con{ margin:0.8rem 0.32rem 0.32rem 0.32rem; line-height:0.8533333333333333rem; font-size:0.3733333333333333rem}
+.article_con img{ max-width:100%; display:block; margin:0 auto;}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}

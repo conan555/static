@@ -1,0 +1,174 @@
+@charset "utf-8";
+body{ background-color:#e0212a;}
+
+header{   padding-top:1.606rem}
+.headerBg{ top:0; left:0; position:absolute; z-index:-1}
+.headerBg img{ display:block; width:100%;}
+.block_home_slider .flex-control-paging{ bottom:0}
+
+.summary{ padding:0.32rem; line-height:0.7rem; color:#fff; font-size:0.4rem; text-align:center; background:#e73447; border-radius:0.24rem; border:3px solid #fff; margin:0 0.24rem}
+.block_home_slider{}
+
+/*-----倒计时标题----*/
+.countDown{text-align:center;}
+.countDown h4{font-size:0.4267rem; color:#fff; margin:0.2633rem auto 0.2333rem auto; font-weight:normal  }
+.countDown h4 span{ display:inline-block; width:0.667rem; height:0.667rem; line-height:0.667rem; border-radius:50%; border:1px solid #fff}
+.countDown section{ padding:0.32rem}
+.countDown section span{ font-size:0.4rem; color:#fff; margin-right:0.267rem;}
+.countDown section span em{ display:inline-block; line-height:0.88rem; text-align:center; background: #fff; border-radius:0.167rem; padding:0 0.14rem; height:0.88rem; font-size:0.48rem; font-weight:bold; color:#ff4626; margin-right:0.1333rem; }
+.go{ display:block; height:1.1rem; line-height:1.1rem; font-size:0.56rem; background:linear-gradient( #F9FE39,#e9822c ); width:5.07333rem; border-radius:1.45rem; margin:0.4rem auto; text-align:center; box-shadow:0 0.13333rem 0.13333rem rgba(0,0,0,0.2)}
+
+/*-----活动标题----*/
+.bagContent { background:url(../image/contentTitle.png) no-repeat; padding-top:0.266667rem; width:100%;  background-size:100%}
+.bagContent h4{ text-align:center; line-height:1rem; font-size:0.4267rem  }
+
+/*-----圆角边框和圆角背景----*/
+.borSolid{ border-radius:10px; border:0.2633rem solid #e8244a; margin-top:-0.75rem;}
+.bagContent .content{ background:#fff1ca; width:9.33333333333333333rem; margin:0 auto; }
+
+@keyframes move
+{
+    0%, 65%{ 
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+    70% {  
+      -webkit-transform:rotate(20deg);
+      transform:rotate(20deg);
+    }
+    75% {  
+      -webkit-transform:rotate(-20deg);
+      transform:rotate(-02deg);
+    }
+    80% {  
+      -webkit-transform:rotate(20deg);
+      transform:rotate(20deg);
+    }
+    85% {  
+      -webkit-transform:rotate(-20deg);
+      transform:rotate(-20deg);
+    }
+    90% {  
+      -webkit-transform:rotate(20deg);
+      transform:rotate(20deg);
+    }
+    95% {  
+      -webkit-transform:rotate(-20deg);
+      transform:rotate(-20deg);
+    }
+    100% {  
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+}
+
+@-webkit-keyframes move
+{
+    0%, 65%{ 
+      -webkit-transform:rotate(0deg);
+      transform:rotate(0deg);
+    }
+    70% {  
+      -webkit-transform:rotate(20deg);
+      transform:rotate(20deg);
+    }
+    75% {  
+      -webkit-transform:rotate(-20deg);
+      transform:rotate(-20deg);
+    }
+    80% {  
+      -webkit-transform:rotate(20deg);
+      transform:rotate(20deg);
+    }
+    85% {  
+      -webkit-transform:rotate(-20deg);
+      transform:rotate(-20deg);
+    }
+    90% {  
+      -webkit-transform:rotate(20deg);
+      transform:rotate(20deg);
+    }
+    95% {  
+      -webkit-transform:rotate(-20deg);
+      transform:rotate(-20deg);
+    }
+    100% {  
+      -webkit-transform:rotate(0eg);
+      transform:rotate(0deg);
+    }
+}
+
+.bagLeft{ height:1.61333rem; width:2rem; background:rgba(0,0,0,0.5); border-radius:0 0.7467rem 0.7467rem 0; position:fixed; top:7.2rem; left:0; z-index:1 }
+.bagLeft span{ display:block; background:url(../image/bagBg.png) no-repeat; background-size:100%; width:1.3866667rem; height:1.3866667rem; margin:0.12rem 0.12rem 0 0; float:right}
+.bagLeft span img{ width:1.3866667rem; height:1.3866667rem;animation:move 3s 0s infinite;}
+
+
+/*-----谁参与了重置----*/
+.num img{ border:0}
+.num ul li{ margin:0.13333333333333333rem 0.06333333333333333rem 0.13333333333333333rem 0.165rem}
+
+/*-----排行榜重置----*/
+.record{ background:none;}
+.record li{ border-bottom:1px dashed #efddad;}
+
+.paihang li span{ color:#ED9156}
+.paihang li{ border-bottom:1px solid #efddad}
+
+.mapBtn input,.moreStores a{background:linear-gradient(#ff993e,#e73447)}
+.mapBtn:after,.moreStores:after{background:#b42133}
+.popUpTab input.tjBtn{background:linear-gradient(#ff993e,#e73447)}
+.createAlso{background: #c11207; box-shadow:inset 0px 15px 10px -10px rgba(193,18,7,0.7); padding:0.134rem; width:55%; margin:0.4rem auto; border-radius:1.467rem}
+.createAlso input{ color:#722e18;background:#fbff18; line-height:1.0306667rem; border-radius:1.467rem; width:100%}
+
+
+/*播放音乐*/
+@keyframes musicOn{0%{-o-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg);} 100%{-o-transform: rotate(360deg); -ms-transform: rotate(360deg); -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);}}
+.bag_music{position: fixed; right: 0.3rem; top: 0.3rem; width: 1.01333rem; height:1.01333rem; border:2px solid #fff; z-index:4; border-radius:50%; overflow:hidden; background:url(../../img/music.png) no-repeat center; background-size:100%; -o-animation: musicOn 1.5s linear infinite; -ms-animation: musicOn 1.5s linear infinite; -moz-animation: musicOn 1.5s linear infinite; -webkit-animation: musicOn 1.5s linear infinite; animation: musicOn 1.5s linear infinite;}
+.musicX{ background:url(../../img/musicX.png) no-repeat; background-size:100%; animation:none; -o-animation:none; -ms-animation:none; -moz-animation:none; -webkit-animation:none;}
+
+/**************游戏页面*******************/
+#wrap{ background:#E11D13 url(../image/bg.jpg) no-repeat center bottom; background-size:100%; height:17.7733333rem}
+.hide{ display:none;}
+
+/*游戏页面*/
+.countdown{position:relative; text-align:center;}
+.countdown span{ position:absolute; color:#ffe972; font-size:1.0rem; top:28%; left:50%; margin-left:-0.4rem;}
+.tips{ width:70%; display:block;  margin:0 auto; border:1px solid #fff;}
+.tips em{ display:block; height:100%; background-color:#fff; height:1.0rem; line-height:1.0rem; margin:0.049rem; color:#e22015; font-size:0.34rem; font-style:normal; font-weight:normal;}
+.rain-wrap{ position:fixed; width:100%; height:100%; top:0; left:0; overflow:hidden; z-index:2}
+.envelope{ width:1.25rem; height:auto; overflow: hidden; position: absolute; -webkit-user-select: none; border:none; }
+
+/*计时器*/
+.timer{ background-color:#ffe972; position:fixed; top:0; left:50%; width:3.0rem; height:0.8rem; line-height:0.8rem; margin-left:-1.5rem; text-align:center; font-size:0.34rem; color:#e22015;}
+.timer span{font-size:0.6rem;}
+
+
+/*游戏开始前规则弹窗*/
+.popup2{ position:fixed; width:100%; height:100%;; top:0; left:0; z-index:10;  background-color: rgba(0, 0, 0, 0.85);}
+.rulePop{ background-color:#FED739; width:70%; height:auto; border-radius:10px; margin:0 auto; padding:0 0.5rem 0.5rem;}
+/*.rulePop h3.title{ width:46%; height:1.0rem; line-height:1.0rem; background-color:#FF950B; border-bottom-left-radius:5px; border-bottom-right-radius:5px; margin-bottom:0.5rem; position:relative; text-align:center; color:#fff; font-size:0.5rem; position:relative; margin:0 auto; top:-0.29rem;}
+.rulePop h3.title:before,.rulePop h3.title:after{ content:""; display:inline-block; width:0; height:0; border-left:0.215rem solid #A45D00; border-top:0.215rem solid transparent; border-bottom:0.215rem solid transparent; transform:rotate(45deg); position:absolute; }
+.rulePop h3.title:before{left:-0.18rem; top:0;}
+*/
+.rulePop h3.title{width:60%; margin:0 auto; position:relative; top:-0.26rem;}
+.rulePop h3.title img{ width:100%; height:auto;}
+.rulePop h3.title em{ position:absolute; width:100%; height:1.0rem; line-height:1.0rem; font-style:normal; font-size:0.5rem; top:50%; margin-top:-0.6rem; left:0; text-align:center; color:#fff;}
+.rulePop_con{ margin-top:0.3rem;}
+.rulePop_con p{ color:#A73300; margin:0 0 0.6rem 0; font-size:0.38rem;}
+.startGame{ display:block; width:70%; height:1.0rem; line-height:1.0rem; background-color:#E11D13; color:#fff; text-align:center; margin:0 auto; border-radius:3px; font-size:0.42rem;}
+.cfff {color: #fff;}
+.share{ display:none; height:100%;  width:100%; font-size:0.38rem; top:0;position:absolute; z-index:10; text-align:center}
+.share img:nth-child(2){ width:50%; height:auto;  }
+.follow{ display:none; height:100%;  width:100%; font-size:0.38rem; top:100px;position:absolute; z-index:10; text-align:center}
+.follow img:nth-child(2){ width:50%; height:auto;  }
+
+
+/*滚动穿透使用样式*/
+.scroll {position: fixed;width: 100%;}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}

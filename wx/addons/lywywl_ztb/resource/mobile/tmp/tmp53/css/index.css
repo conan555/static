@@ -1,0 +1,101 @@
+@charset "utf-8";
+body{ background:#cf1206; }
+
+/*头部*/
+header{ padding-top:2.7rem; background:url(../image/header_bg.jpg) no-repeat; height:7rem}
+header img{ width:8.853333333333333rem; height:auto; margin:0 auto; display:block;}
+.egg_element{ position:absolute; left:0; top:0; width:100%;}
+.block_home_slider{ z-index:2; height:7.45rem}
+.block_home_slider .flex-control-paging{ bottom:1.5rem}
+
+/*活动主题*/
+.summary{text-align:center; margin:0 0.64rem 0; position:relative; color:#cf1206; background:linear-gradient(to top, #f6b868, #fef5e2); padding-bottom:0.32rem;  border-radius:0.5rem 0  0.5rem 0 ; position:relative; padding-top:0.2rem}
+.summary:after{ content:''; position:absolute; height:3.17rem; width:9.1rem; left:-0.3rem; bottom:-2rem; border-radius:0.32rem; background:url(../image/marroon.png); background-size:100%; z-index:-1  }
+.summary section{ color:#f12c0c;}
+.summary p{ display:inline-block; padding:0.4rem;line-height:0.64rem; color:#cf1206}
+
+.contentWrap{ background:#cc1206; border:0.07rem solid #fbd08f; padding:0.15rem; border-radius:0.2rem; margin:0.32rem }
+.content{ background-color:#ffdbb3; padding:0.32rem; border-radius:0.2rem;  box-sizing:border-box; color:#cf1206; border:0.07rem solid #fbd08f}
+
+/*标题*/
+.title{ margin:0 auto; height:1.306666666666667rem; text-align:center; font-size:0.48rem; color:#ffdbb3; font-weight:normal; background:url(../image/title.png) no-repeat; width:5.96rem;background-size: 100%;}
+.title span{ display:inline-block; position:relative; padding-top:0.3rem;}
+
+/*活动倒计时*/
+.countdown{ text-align:center;  font-size:0.4rem; position:relative; z-index:2; color:#ffcd68!important; background:#cf1206; border-radius:0.6rem; margin:0 0.3rem; height:1rem; line-height:1rem }
+.countdown span{ display:inline-block; }
+.countdown span em{ display:inline-flex; justify-content: center; align-items:center;text-align:center;  border-radius:0.12rem; font-size:0.48rem;  margin:0 0.065rem; }
+
+/*砸蛋区域*/
+.box{position:relative; width: 100%; z-index:2;}
+.tips{width:100% /*3.33333333rem*/; margin:0.9rem auto 0; text-align: center; font-size: 0.38rem; line-height: 0.6rem; color: #ffcd68; position:relative;}
+#change{margin: 0 0.1rem; font-size:0.5rem;}
+#peopleNum{margin: 0 0.1rem;}
+.egg{width:86%; position:relative; z-index:4;margin:0 auto;}
+.egg li{position: relative; float: left; width:26%; /*height: 2.61333333rem;*/ margin: 0 2%; box-sizing:border-box;}
+.egg li:nth-child(2){width:36%;}
+.egg li:nth-child(2) img{width: 100%; height:auto}
+.egg li:nth-child(2) img.goldegg{width: 80%; height:auto;top: 0.4rem}
+.egg .info{display: none; position: absolute; left: -0.16rem; top: 0.33333333rem; width: 0.97333333rem; height: 0.58666667rem; background-image: url("../image/tips.png"); background-size:100%;}
+.egg li img{width: 100%; height: auto;}
+.egg li img.goldegg{position: relative; left: 10%; top: 0.26666667rem; width: 80%; height:auto; -o-transform-origin: center bottom; -ms-transform-origin: center bottom; -moz-transform-origin: center bottom; -webkit-transform-origin: center bottom; transform-origin: center bottom; -o-transition: .5s; -ms-transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; transition: .5s;}
+.egg li img.jump{-o-animation: jump .5s infinite alternate; -ms-animation: jump .5s infinite alternate; -moz-animation: jump .5s infinite alternate; -webkit-animation: jump .5s infinite alternate; animation: jump .5s infinite alternate;}
+.egg li em{ display:none;}
+@keyframes jump{100%{top: 0.13333333rem;}}
+#info{position: absolute; left: 0.53333333rem; top: 1.53333333rem; width: 1rem; height: 0.53333333rem;}
+#hammer{position: absolute; left: 8.5rem; top: 0.8rem; width: 1.46666667rem; height: 1.6rem; z-index:5; background-image: url("../image/hammer.png"); background-size:100%; -o-transform-origin: right bottom; -ms-transform-origin: right bottom; -moz-transform-origin: right bottom; -webkit-transform-origin: right bottom; transform-origin: right bottom; -o-transition: 1s ease-in-out; -ms-transition: 1s ease-in-out; -moz-transition: 1s ease-in-out; -webkit-transition: 1s ease-in-out; transition: 1s ease-in-out;}
+.shak{-o-animation: hammer-move 0.5s linear infinite alternate; -ms-animation: hammer-move 0.5s linear infinite alternate; -moz-animation: hammer-move 0.5s linear infinite alternate; -webkit-animation: hammer-move 0.5s linear infinite alternate; animation: hammer-move 0.5s linear infinite alternate;}
+@keyframes hammer-move{100%{-o-transform: rotate(-10deg); -ms-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -webkit-transform: rotate(-10deg); transform: rotate(-10deg);}}
+.hit{-o-animation: hammer-hit 0.2s 3 alternate; -ms-animation: hammer-hit 0.2s 3 alternate; -moz-animation: hammer-hit 0.2s 3 alternate; -webkit-animation: hammer-hit 0.2s 3 alternate; animation: hammer-hit 0.2s 3 alternate;}
+@keyframes hammer-hit{100%{-o-transform: rotate(-20deg); -ms-transform: rotate(-20deg); -moz-transform: rotate(-20deg); -webkit-transform: rotate(-20deg); transform: rotate(-20deg);}}
+@media (min-width:768px){
+	.egg{width:86%; margin:0 auto;}	
+	.hammer{left:8.5rem;}
+	.box:after{ top:-6%;}
+	.tips{ margin-top:0.7rem;}
+}
+/*砸金蛋背景*/
+.base0{position:absolute;  top:2rem;}
+
+/*-----谁参与了活动-内容部分---*/
+.num ul {font-size:0.32rem; font-}
+.num ul li{ width:14.28%; padding:0.16rem; box-sizing:border-box; display:inline-block; float:left; margin:0;}
+.num li span{display: block; height: 0.4rem; line-height: 0.4rem; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.num img{width:0.8533333333333333rem; height: 0.8533333333333333rem; border-radius:50%;display: block; margin: 0 auto; margin-bottom: 0.16rem; border:none;}
+
+/*领奖记录*/
+.prize_record{ background:none;}
+.prize_record li dt img{ border-radius:50%;}
+.prize_record li dd span:nth-child(2){ width:28%;}
+.prize_record li dd span:nth-child(3){ width:38.66%; text-align:center;}
+.prize_record li dd span{ color:#cf1206}
+/*我也要创建活动*/
+.createAlso{width:7.026666666666667rem; height:1.28rem; border-radius:1.28rem; position:relative; margin:0 auto; box-shadow:0 5px 38px #BF2D19}
+.createAlso input{color:#fff; background-color:#FEF45E; color:#a50000; font-weight:bold; border-radius:1.173333333333333rem; position:relative; z-index:2;}
+.createAlso:before{ content:""; display:block; width:100%; height:1.173333333333333rem; border-radius:1.173333333333333rem; background-color:#FDC115; position:absolute; left:0; top:0.1066666666666667rem; z-index:1;}
+
+/*版权*/
+.copRight{ color:#ffeed3}
+
+/*我也要创建活动-弹层按钮颜色*/
+.popUpTab input.tjBtn {background: #E74C2F;}
+
+/*多门店字体颜色*/
+.stores li{ border-bottom:1px solid rgba(255,255,255,0.3);}
+.stores .c9,.stores li div{ color:#bf8c53}
+.stores li a{ color:#cf1206}
+
+/*多门店和地图按钮*/
+.moreStores a,.mapBtn input{ background-color:#fbd08f; color:#cf1206}
+.moreStores:after,.mapBtn:after{background-color:#ea9d54;}
+
+.copRight span{ color:#ffeed3}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+/*切换图多余1像素*/
+.block_home_slider {position: relative;width: 8.3rem;margin: 0 auto;overflow: hidden;}

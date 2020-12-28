@@ -1,0 +1,91 @@
+@charset "utf-8";
+body{ background:#e5f1ff ; background-size:100%;}
+
+/*头部*/
+header{ height:13.33333333333333rem;}
+.praise_element{ position:absolute; width:100%; height:auto; left:0; top:1rem;}
+.block_home_slider{ z-index:2; margin-top: 1.3rem }
+.block_home_slider .flex-control-paging{ bottom:0}
+
+/*活动主题*/
+.summary{text-align:center; margin:0.6rem 0.32rem 0.6rem; position:relative; background-color:#fff; border-radius:0.13rem; border:1px solid #D0D5DB; z-index:2;}
+.summary p{ display:inline-block; padding:0.32rem;  line-height:0.64rem;}
+
+.content{ margin:0 0.32rem; background-color:#fff; padding:0.32rem; border-radius: 0.13rem}
+.ccda{ color: #cdaa0d}
+/*标题*/
+.title{ margin:0 0.32rem 0.62rem 0.32rem;text-align:center; font-size:0.4533333333333333rem;  font-weight:normal;}
+.title span{ border-bottom: 2px solid #3b4d66; padding-bottom: 0.13rem;}
+/*活动倒计时*/
+.countdown{ text-align:center; font-size:0.4rem;}
+.countdown .content{ border:none; background: none}
+.countdown span{ display:inline-block; margin-right:0.267rem;}
+.countdown span em{ display:inline-flex; justify-content: center; align-items:center;text-align:center; background:#FED20D; border-radius:0.13rem; padding:0 0.14rem; height:0.8rem; font-size:0.48rem; color:#fff; margin-right:0.1333rem; border:2px solid #333}
+
+/*我也要参加按钮*/
+.join_button{ width:5.68rem; height:2.133333333333333rem; background:url(../image/button.png) no-repeat center; background-size:100%; border:none; font-size:0.4266666666666667rem; line-height:2.133333333333333rem; color:#fff; animation:enlarge 0.4s linear infinite alternate;}
+.join_button.goback{animation:none}
+@keyframes enlarge{100%{ transform:scale(1.2)}}
+
+/*活动简介*/
+.praise_brief{ text-align:center;}
+.praise_brief span{ margin:0 0.16rem; color:#CDAA0D;}
+.praise_brief p{ margin:0.32rem 0;}
+
+/*个人参与信息*/
+.my_join{ margin-top:1.6rem; margin-left: 1.3rem; margin-right: 1.3rem}
+.wx_head img{ width:1.88rem; height:1.88rem; border-radius:50%; display:block; margin:-1.34rem auto 0; border:0.0666666666666667rem solid #fff;}
+.nick_name{margin-top:0.12rem;}
+.join_info p{ margin:0; line-height:0.68rem;}
+.join_button_small{ display:flex; justify-content:space-around; }
+.join_button_small input{width:5.68rem; height:2.133333333333333rem; background:url(../image/button.png) no-repeat center; background-size:100%; border:none; font-size:0.4266666666666667rem; line-height:2.133333333333333rem; color:#fff;}
+
+/*参与列表*/
+.praise_list li{ border:none;}
+.praise_list dl dt img{border-radius:50%;}
+.praise_list dl dd span:first-child{ width:30%; color:#666}
+.praise_list dl dd span:last-child{ width:36%;}
+.praise_list dl dd span em{ color:#CDAA0D;}
+
+/*-----谁参与了活动-内容部分---*/
+.num ul {font-size:0.32rem; }
+.num ul li{ width:14.28%; padding:0.16rem; box-sizing:border-box; display:inline-block; float:left; margin:0;}
+.num li span{display: block; height: 0.4rem; line-height: 0.4rem; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.num img{width:0.8533333333333333rem; height: 0.8533333333333333rem; border-radius:50%;display: block; margin: 0 auto; margin-bottom: 0.16rem; border:none;}
+
+/*领奖记录*/
+.prize_record li dt img{ border-radius:50%;}
+.prize_record li dd span:nth-child(2){ width:28%;  text-align: left; display: inline-block;  float: left;}
+.prize_record li dd span:nth-child(3){ width:38.66%; text-align: left; display: inline-block;  float: left;}
+
+/*我也要创建活动*/
+.createAlso input{ width:4.8rem; height:1.36rem; line-height:1.2rem; color:#fff; background:url(../image/createAlso.png) no-repeat center; background-size:100%; color:#000; font-size:0.48rem;}
+
+/*版权*/
+.copRight{ color:#666}
+.copRight span{ color:#666; }
+
+/*我也要创建活动-弹层按钮颜色*/
+.popUpTab input.tjBtn {background: #F7C829; color:#000;}
+
+/*多门店和地图按钮*/
+.moreStores a{ background-color:#FED20D; color:#fff;}
+.moreStores:after{background-color:#E0B721;}
+.mapBtn input{ width:3.173333333333333rem ; height:1rem ; background: url(../image/navBtn.png); color: #dabf4a; font-size: 0.32rem; text-indent:0.4rem;background-size: 100%; }
+.mapBtn:after{background:none;}
+
+/*集赞礼品列表*/
+.gift_list li{ height: 1rem; line-height: 1rem; overflow: hidden; position: relative; padding-left: 0.6rem}
+.gift_list li h2 em{ display:inline-block;font-size:0.4rem; height: 1rem; width: 50%; overflow: hidden}
+.gift_list li i{ position: absolute; top:0; left: 0}
+
+.paihang li span i{ border:1px solid #333; color: #333; padding: 0 0.13rem}
+
+
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}

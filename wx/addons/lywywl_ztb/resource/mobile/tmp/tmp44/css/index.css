@@ -1,0 +1,150 @@
+﻿﻿@charset "utf-8";
+body{ background:#dde0ff; font-size:0.37rem; color:#333}
+.cfff{ color:#fff}
+.pd24_0{ padding:0.32rem 0}
+.flexslider .slides img{ border-radius:0; }
+
+.borRds30{ border-radius:0.4rem}
+.org{ color:#f86784}
+.h120{ height:1.6rem}
+
+/*头部*/
+header{padding:0; }
+.block_home_slider{ z-index:1; width:100%; position:relative; height:100% }
+.blk img{ display:block}
+.block_home_slider .slide{ height:auto}
+
+
+.bg_ffe{ background:#ffe667}
+.cPink{ color:#f86c87}
+.bgPink{ background:#f9f9f9}
+
+/*活动倒计时*/
+.cutDownH4{font-size:0.42rem; padding:0.13rem 0;  height:1.38rem; line-height:0.8rem; text-align:center; font-weight:normal;}
+.countdown em{ color:#f86c87; font-size:0.526rem; padding:0 0.32rem }
+
+.w80{ width:80%;}
+.w20{ width:20%;}
+
+/*活动主题*/
+.summary{text-align:center;   margin-top:0.34rem;  background:#fff; border-radius:0.13rem; margin:0 0.32rem; position:relative; margin-top:-0.6rem; z-index:1; font-size:0.426rem }
+.summary p{ background:#fdffbe; height:1.13rem; line-height:1.13rem; overflow:hidden; text-align:center; color:#ff5100; border-radius:0 0 0.13rem 0.13rem; font-size:0.37rem}
+.summary li{ float:left; width:33.3%; position:relative; box-sizing:border-box; line-height:0.6rem; color:#999 }
+.summary li:after{ content:''; width:1px; position:absolute; right:0; height:0.6rem; background:#c1c1c1; top:0.3rem}
+.summary em{ display:block; font-size:0.48rem;color:#f86c87}
+
+/*标题*/
+.title{ text-align:center; height:1.13rem; line-height:1.13rem; overflow:hidden; background:#3760fd; color:#fff ; border-radius:0.13rem 0.13rem 0 0; font-size:0.426rem	}
+.title span{ display:block; font-size:0.42rem; display:inline-block;}
+.cBlue{ color:#3760fd}
+.title img{ width:0.53rem; height:0.53rem; display:inline-block; top:0.13rem; position:relative; margin-right:0.13rem}
+/*-----谁参与了活动-内容部分---*/
+.num ul {font-size:0.32rem;}
+.num ul li{ width:9%;  display:inline-block; float:left; margin:0; overflow:visible}
+.num li span{display: block; height: 0.4rem; line-height: 0.4rem; text-align:center;  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.num ul li img{width:0.8rem; height: 0.8rem; border-radius:50%;display: block;  border:none; position:relative; z-index:1}
+@keyframes bounce {
+0{top:0}
+25%{top:-0.4rem }
+50%{ top:0}
+75%{ top:-0.3rem}
+100%{ top:0}
+/*	from { transform: translate3d(0, 0, 0);     }
+to   { transform: translate3d(0, 0.2rem, 0); }*/
+}
+/*.num ul li:nth-child(1) img{animation: bounce 1s ease-out 0.8s 1 alternate;}*/
+.more img{ width:0.85rem; height:auto; border-radius:0;  border:0; margin-left:-0.1rem}
+
+.content{ background:#fff; border-radius:0.13rem; }
+
+/*领取记录*/
+.record{ background:none;  padding:0.32rem}
+.record li{ background:none; border-radius:0.13333rem; border-bottom:none;margin-bottom:0rem; border-bottom:1px solid #eee; height:1.26rem;}
+.record dl dt { width:1rem; height:1rem}
+.record dl dt img{ width:1rem; height:1rem; border-radius:0.5rem}
+.record dl dd{ padding-left:1.13rem; top:0.3rem}
+.record dl dd span,.record dl dd p{ height:auto; line-height:normal; font-size:0.32rem; padding:0; width: 1rem;}
+.ce33{ color:#e33333}
+/*答题*/
+.daTi li{ margin-top:0.32rem; padding:0.13rem}
+.input_item{font-size:0.3733333333333333rem; margin-top:0.32rem; position:relative; width:100%}
+.input_item input{ width:100%; height:100%; position:absolute; left:0px; top:0px; background:#000; display:block; opacity:0;}
+.input_item label{ background:#fff;width:0.48rem; height:0.48rem; display:inline-block; vertical-align:text-bottom; margin-right:0.24rem;}
+.input_item input[type=radio]+label{ border:none; background:url(../image/check.png) no-repeat; background-size:0.48rem;}
+.input_item input[type=radio]:checked+label{ border:none; background: url(../image/checked.png) no-repeat; background-size:0.48rem;}
+.input_item input[type=checkbox]+label{ border:none; background:url(../image/check02.png) no-repeat; background-size:0.48rem;}
+.input_item input[type=checkbox]:checked+label{ border:none; background: url(../image/checked02.png) no-repeat; background-size:0.48rem;}
+.input_item.other .inpTxt{ border:0; background:none; opacity:1; border-bottom:1px dashed #666666; position:inherit; width:3rem; overflow:hidden; /*font-size:0.273rem;*/ height:0.5rem; line-height:0.5rem; margin-left:0.13rem }
+.tArea{ width:100%; border:0; background:none; border-radius:0.13rem; background:#f2f2f2; padding:0.13rem; box-sizing:border-box; line-height:0.666rem; height:2.3rem; font-size:0.32rem}
+
+/*wwc 2020.4.26 新增单行文本框*/
+.tAnswertext{ width:100%; border:0; background:none; border-radius:0.13rem; background:#f2f2f2; padding:0.13rem; box-sizing:border-box; line-height:0.666rem;  font-size:0.32rem}
+
+.multi_radio .input_item{ width:20%; margin-right:5%;}
+
+.pd10{ padding:0.13rem}
+
+/*-----底部按钮--*/
+.fixedNav{ background:linear-gradient(to top, rgba(215,245,255,0.8), rgba(215,245,255,0)); z-index:7 }
+
+/*我也要创建活动-弹层按钮颜色*/
+.popUpTab input.tjBtn {background: #E54640;}
+
+.button{ background:#FEE002; border:none; height:1.306666666666667rem; width:100%; display:block; font-size:0.4266666666666667rem; border-radius:0.1333rem;cursor: pointer; -webkit-appearance: none;}
+
+#footer{ display:none}
+#footer{ position:fixed; height:1.6rem; bottom:0; left:0; width:100%; background:rgba(0,0,0,.15); z-index:1}
+#footer section{ padding:0.1867rem 0.36rem}
+@keyframes myfirst
+{
+0 { transform:scale(1,1)}
+75% { transform:scale(1.1,1.1)}
+100% { transform:scale(1,1)}
+}
+.baoMing a{ display:block; width:90%;margin:0 5% ; animation:myfirst 0.7s infinite; background:#ffea49; color:#ff5100; border-bottom:0.13rem solid #febf02 ; border-radius: 50px;   height: 100%;height: 1.173rem;   line-height: 1.173rem; font-size: 0.48rem; text-align:center; }
+
+
+.copRight,.copRight span{ color:#fff}
+.mapBtn { z-index:0; height:1.173rem; line-height:1.173rem; width:60%}
+.mapBtn input{background:#ffea49; color:#ff5100; border-bottom:0.13rem solid #febf02}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+
+.borR10{ border-radius:0.13rem}
+
+/*-----公告----*/
+.prize figure{ width:3.54rem; height:3.54rem; margin:auto; }
+.prize figure img{ width:100%; height:3.54rem;  min-height:3.54rem}
+
+.prize h4{ margin:0.32rem 0}
+.prize h3{ width:8.8rem; background:url(../image/tit.png) no-repeat; background-size:100%; height:3.08rem;line-height:3.08rem; text-align:center; color:#fff; font-size:0.64rem}
+.prizeCon{ background:#fff; padding:0.32rem; position:relative; top:-0.93rem; margin:0 auto; width:7.56rem; box-sizing:border-box; border-radius:0 0 0.13rem 0.13rem; padding-bottom:0.45rem}
+.prize .close{ width:1.06rem; height:1.06rem; margin:0 auto; display:block}
+.prize .close img{ width:100%; height:100%}
+
+.questionCell{ border:1px dashed red; padding:0.13rem}
+.daTi li h4{ font-size:0.42rem}
+
+.record dl dd span:first-child{width: 2rem }
+
+
+/*排行*/
+.paihang li{ height:1rem; line-height:1rem; border-bottom:1px solid #eee; padding:0.2rem 0; overflow:hidden; position:relative;}
+.paihang li span{ width:1rem; font-size:0.4rem; text-align:center; color:#999 }
+.paihang li span,.paihang li em{ display:block; float:left}
+.paihang li span img{ width:0.5867rem; height:auto; display:block; margin:0.2rem auto 0;}
+.paihang li em{ float:right}
+.paihang li dl{ float:left; }
+.paihang li dl span,.paihang li em{font-size:0.373rem; position:absolute; right:0;}
+.paihang li dl dt{ width:1.12rem; float:left}
+.paihang li dl dd{ width:3.2rem; float:left; padding-left:0.2rem; font-size:0.373rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.paihang li dl span{ width:100%;  }
+.paihang li dl dt img{ width:1rem; height:1rem; border-radius:50%; -webkit-border-radius:50%; display:block;}
+.paihang li{ border-bottom:0; margin-top:0.32rem; }
+.paihang li span{ width: 0.58rem; margin-right: 0.32rem;}
+.paihang li span img{ margin: 0; margin-top: 0.2rem;}

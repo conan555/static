@@ -1,0 +1,230 @@
+@charset "utf-8";
+body{ background:url(../image/bg.jpg) repeat; background-size:0.13rem}
+.cfff{ color:#fff}
+
+/*头部*/
+header{padding:0;background-color:#000643; }
+header .header_bg{  display:block}
+.block_home_slider{ z-index:2; /*margin-left:0.7333335rem;*/margin-top:1.8rem; position:relative; }
+.block_home_slider .flex-control-paging{ bottom:0}
+.blk img{ display:block}
+
+/*活动主题*/
+.summary{text-align:center; margin:0 0.32rem 0 0.32rem; padding:0.32rem; border-radius:0.3rem 0.3rem 0 0; background-image: linear-gradient(#07e4f2, #2071da);}
+.summaryInner{box-shadow:0 0.03rem 0.03rem rgba(0,0,0,0.3) inset; background:#fff; border-radius:0.13rem; color:#1a87d3}
+.summary p{ display:inline-block; padding:0.32rem; }
+
+/*头部图片元素*/
+.union_element{ margin-top:-0.96rem; position:relative; z-index:2;}
+.union_element img{ display:block; width:100%;}
+.content{ padding:0.13rem;  margin:0.32rem } 
+
+/*活动倒计时*/
+.cutDownH4{ text-align:center; font-size:0.37rem; color:#fff;  margin-left:20% ; width:60%; border-bottom:0;border-radius:0.13rem 0.13rem 0 0; background:#07e4f2; padding:0.13rem}
+.cutDownH4 h4{ border-radius:0.13rem; box-shadow:0 0.03rem 0.03rem rgba(0,0,0,0.3) inset; width:100%; padding:0.13rem 0; background:#1a87d3; }
+.cutDownH4 span{ position:relative; display:inline-block; }
+.cutDownH4 span:before{ background:url(../image/cutDownL.png) no-repeat; width:0.96rem; height:0.18rem; content:''; position:absolute; left:-1.46rem; background-size:0.96rem; top:0.15rem}
+.cutDownH4 span:after{background:url(../image/cutDownR.png) no-repeat; width:0.96rem; height:0.18rem; content:''; position:absolute; background-size:0.96rem; top:0.15rem; right:-1.46rem; }
+
+.countdown{ text-align:center; font-size:0.4rem;  padding:0.2rem 0;color:#fff; background:#1a87d3; border-radius:0.13rem; box-shadow:0 0.03rem 0.03rem rgba(0,0,0,0.3) inset; margin-bottom:0.13rem}
+.countdown span em{ font-size: 0.467rem;color:#fff; margin:0 0.13rem; font-weight:bold }
+
+/*标题*/
+.title{ text-align:center;  margin: 0 0.79rem;  background:url(../image/titBg.png); background-size:100%; width:8.42rem; height:1.3rem; line-height:1.3rem; margin-top:0.82rem }
+.title span{ display:block; font-size:0.56rem; display:inline-block;  padding:0 0.9rem;  border-radius:0.6rem; color:#fff;}
+
+
+/*联盟商家*/
+.merchant{ position:relative; top:-0.42rem; }
+.merchant .content{background:linear-gradient(#2bbbfe, #1f74db); }
+.merchant .content .view { padding-top:0.23rem; color:#fff}
+.merchant .content .view span{ display:block; float:left; width:50%; border-right:1px solid #e4e4e4; text-align:center; box-sizing:border-box; margin-bottom:0.4rem; font-size:0.373rem}
+.merchant .content .view span{ border-right:0}
+.merchant .content .view .nametitle  span{ width:100%; float:none;}
+
+/*联盟商家滚动*/
+.unionShoper{width:100%; position:relative; overflow:hidden;  }
+.unionShoper .bd ul li{ text-align:center; zoom:1; width:30%; margin:0 1.6%; padding:0 0.13333rem; box-sizing:border-box; height:3.8rem; float:left; border-radius:1.93333rem; margin-top:0.4rem; border:1px solid #edecec; border-radius:0.3467rem; box-sizing:border-box; background:#fff}
+.unionShoper .bd ul li .pic{ text-align:center; zoom:1; width:2.26rem; height:2.26rem; border-radius:0.266667rem; margin-left:auto; margin-right:auto}
+.unionShoper .bd ul li .pic a{ display:block; text-align:center; }
+.unionShoper .bd ul li .pic img{ display:block; width:2.26rem; height:2.26rem; border-radius:1.13rem; margin-top:0.32rem }
+.unionShoper .bd ul li .pic p{ left:0; bottom:0; text-align:center; width:98%; padding:0 1%; height:1rem;line-height:1rem; font-size:0.3733333333333333rem; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;  }
+
+.tips{ font-size:0.32rem;  text-align:center; padding:0.52rem 0 0.32rem 0; position:relative; color:#59fef9}
+.tips img{  width:0.29333rem; height:auto; margin:0 0.32rem; position:relative; top:0.06rem}
+
+/*-----谁参与了活动-内容部分---*/
+.titJoin{ background:url(../image/titJoin.png) no-repeat 0  center; background-size:100%; width:3.07rem; margin:0 auto; text-align:center; color:#fff; font-size:0.42rem; }
+.num ul {}
+.num ul{ max-height:3.4rem;font-size:0.32rem; overflow:hidden}
+.num ul li{ color:#90f7ff; margin:0.13333333333333333rem 0.09rem 0.13333333333333333rem 0.18rem}
+/*.num ul li:nth-child(1) img{animation: bounce 1s ease-out 0.8s 1 alternate;}*/
+.more img{ width:0.4267rem; height:auto; border-radius:0; margin-top:0.4rem; border:0}
+
+
+/*邀请排行榜*/
+.pd10{ padding:0.13rem}
+.union_rank .content{}
+.union_rank .paihang li em{ right:0.32rem;}
+.No3{ padding-top:0.36rem; color:#fff }
+.No3 li{ width:33.3%; float:left; text-align:center;font-size:0.3467rem; position:relative; height:4.503333rem; padding-bottom:0.32rem; background:linear-gradient(to right, #27f9fa, #0177ff); border-radius:0.13rem 0.13rem 0 0;  }
+.No3 li section{ height:2.94rem; position:relative; width:100%; overflow:hidden }
+.No3 li p em{ height:0.48rem; line-height:0.48rem; border-radius:0.24rem; padding:0 0.1333rem; color:#172cf5; background:#fff968; border-radius:0.6rem; padding:0 0.13rem}
+.No3 li p { margin-bottom:0.06rem}
+.No3 li span{ display:block; position:relative; z-index:2}
+.No3 li span img{ width:1.6rem; height:1.6rem; border-radius:50%;border:0.08rem solid #fce1a3; margin-top:1.09333rem }
+.No3 li em img{ width:1.2rem; height:0.69333rem; position:absolute; border-radius:0; top:0.51rem; left:50%; margin-left:-0.6rem; z-index:1 }
+.No3 li:nth-child(2){border-radius:0.13333rem 0.13333rem 0 0; top:-0.32rem; padding-bottom:0.32rem; z-index:2; height:4.8199rem; border-radius:0.13333rem 0.13333rem 0 0;}
+
+
+.No3 li:nth-child(2) section{ margin-bottom:0.32rem}
+.No3 li .tri{ position:absolute; left:0; width:3.29333rem; height:auto; top:0.32rem} 
+.No3 li:nth-child(2) span img{ width:1.867rem; height:1.867rem; border-radius:50%;border:0.12rem solid #fad111; margin-top:0.81333rem; display:inline-block }
+.No3 li:nth-child(2) em img{ width:1.4267rem; height:0.8267rem; position:absolute; border-radius:0; top:0.133rem; left:50%; margin-left:-0.7135rem; }
+.No3 li:nth-child(3) span img{ border:0.08rem solid #c6d3e2; }
+.paihang{box-shadow:0 -0.05rem 0.05rem rgba(0,0,0,0.1); margin-top:-0.35rem;position: relative;    top: -0.06rem;  }
+.paihang li{ border-bottom:0; margin-top:0.32rem;border-bottom:1px solid #f2f2f2 }
+.paihang li span{ }
+
+.union_rank{ background:}
+
+/*联盟优惠券*/
+.card_con{ margin:0 0.32rem;}
+.quanList li{ margin-bottom:0.267rem; position:relative; box-shadow:0 0 0.13rem rgba(0,0,0,0.1); background:#fff; border-radius:0.13rem;}
+.quanList li figure{ position:absolute; left:0; top:0; width:100%}
+.quanList li .txtContent{ position:relative; z-index:1;}
+.quanList li .txtContent span.receive{ display:block; color:#fff; border-left:1px dashed #fff; width:20%; text-align:center; height:2.0rem; position:absolute; right:0; top:0; font-size:0.526rem; line-height:0.7rem;     padding: 0.13rem 2% 0; box-sizing: border-box;}
+.quanList li .txtContent span.received{ color:#ccc; opacity:0.4}
+.quanList li a{ width:80%; display:block;color:#fff}
+.quanList li dl{ padding-left:2.7%; height:1.59rem; padding-top:0.32rem; overflow:hidden}
+.quanList li dl dt{ width:1.306rem; height:1.306rem;float:left; }
+.quanList li dl dt img{ width:100%; height:100%; border-radius:50%; }
+.quanList li dl dd{ float:left; padding-left:0.13rem; width:4.5rem; overflow:hidden}
+.quanList li dl dd p{ height:0.45rem; line-height:0.45rem; overflow:hidden; font-size:0.32rem}
+.quanList li dl dd p img{ width:0.3rem; height:0.3rem; margin-top:0.1rem; margin-right:0.1rem}
+.quanList li dl dd p:nth-child(1){ font-size:0.4rem; height:0.48rem; line-height:0.48rem;  overflow:hidden}
+.quanList li .txtContent section{ line-height:0.6rem; font-size:0.32rem; color:#282828; display:block; padding:0 2.7%;}
+.quanList li .ticket{ margin-top:0.2rem; background:#fff; border-radius:0 0 0.13rem 0.13rem; position:relative}
+/*.quanList li .ticket ul{ height:4.2rem; overflow:hidden}*/
+.quanList li .ticket li{ position:relative; padding-left:0.65rem; border-bottom:1px dashed #ccc; padding-top:0.32rem; padding-bottom:0.32rem; box-shadow:none; border-radius:0}
+.quanList li .ticket li:nth-last-child(1){/* border:0*/}
+.quanList li .ticket li h5{ font-size:0.4rem; font-weight:normal; overflow:hidden; padding-right:1.6rem}
+.quanList li .ticket li h5 a,.quanList li .ticket li h5 span{ background:#B874FD; margin:0; position:absolute; right:0; font-size:0.32rem; color:#fff; display:inline-block; width:auto; padding:0 0.2rem; border-radius:0.13rem; height:0.5rem; line-height:0.5rem; }
+.quanList li .ticket li h5 a.recevied{ opacity:0.5}
+.quanList li .ticket em.quanIcon{ display:block; width:0.5rem; height:0.5rem; background:#f08f30; color:#fff; border-radius:0.13rem; text-align:center; line-height:0.5rem; font-weight:0.4rem; position:absolute; left:0}
+.quanList li .ticket li section{ width:100%; padding:0  }
+.quanList li .ticket a{ color:#C3352C; margin:0; width:100%; text-align:center; height:0.8rem; line-height:0.8rem; margin-top:-0.2rem}
+.quanList li .ticket a span{ position:relative; display:inline-block; padding:0 0.32rem}
+.quanList li .ticket a span:after{ content:''; position:absolute; width:0.13rem; height:0.13rem; border-top:2px solid #ccc;border-right:2px solid #ccc; transform:rotate(135deg); top:0.28rem; right:0 }
+.quanList li .ticket img{ width:1.52rem; position:absolute; right:0; top:0.2rem; z-index:1; right:0.32rem }
+.quanList li .ticket li.exceed section{ opacity:0.4}
+
+
+/*-----底部按钮--*/
+.fixedNav{ background:linear-gradient(to top, rgba(215,245,255,0.8), rgba(215,245,255,0))}
+.union_fixednav a{ position:relative; bottom:0.32rem}
+.union_fixednav a,.union_fixednav a:nth-child(2){background:url(../image/btn.png) no-repeat; background-size:4.62rem; height:1.426rem;  line-height:1.426rem; width:4.62rem; color: #fff; margin:0 0.19rem; text-shadow:0 0 0.065rem rgba(0,0,0,1) }
+.union_fixednav a span{ display:block; width:4.49rem; height:1.293rem; background:url(../image/light.png) no-repeat; position:absolute; top:0.06rem; left:0.06rem; background-size:4.49rem;}
+.union_fixednav a span.ring{ background:url(../image/dark.png) no-repeat;background-size:4.49rem; }
+.union_fixednav a.mycard{ background-color:#08C304; color:#fff;}
+.union_fixednav a.card_code{ width:90%;background-color:#08C304; color:#fff;}
+
+/*我也要创建活动*/
+.createAlso input{ color:#e52922; border-radius:0.5866666666666665rem;}
+
+.record dl dd span{ }
+
+/*商家详情页*/
+.sellerInf{ padding:0.32rem; min-height:1.49rem; position:relative; display:flex; align-items:center; font-size:0.3733333333333333rem;}
+.sellerInf a.seller_link{ display:block; }
+.sellerInf dl dt{ width:1.49rem; height:1.49rem; position:absolute; left:0.32rem; top:0.32rem;}
+.sellerInf dl dt img{ width:100%; height:100%; border-radius:50%; }
+.sellerInf dl dd{ margin-left:1.72rem; padding-right:1rem;}
+.sellerInf dl dd p{line-height:0.6rem; }
+.sellerInf dl dd .tel{width:0.573rem; height:0.573rem; position:absolute; right:0.32rem; top:50%; margin-top:-0.2865rem;}
+.sellerInf dl dd img{ width:100%}
+
+.seller_banner{ width:100%;}
+.seller_banner .flex-control-paging {bottom: 0.2rem;}
+.seller_banner .slides img{ border-radius:0}
+
+/*核销码弹窗*/
+.popupVerf{ position:fixed; width:100%; height:100%; left:0; top:0;}
+.popupVerf:before{ content:""; display:inline-block; position:absolute; left:0; top:0; width:100%; height:100%; background-color:#000; opacity:0.8;}
+.verfBox{ position:relative; z-index:1; width:80%; margin:0 auto;}
+.verfBd{ background-color:#fff; border-radius:5px; padding:0.4rem;}
+.verfBd h3{text-align:center; font-size:0.45333rem; font-weight:normal; margin-bottom:0.4rem;}
+.verfItem{ padding:0.2rem 0 0.2rem 1.12rem; font-size:0.37333rem; position:relative; min-height:0.48rem; line-height:0.58666rem;}
+.verfItem span{ color:#999; position:absolute; left:0; top:0.2rem;}
+.verfItem.btn{ padding-left:0;}
+.btnVerf{width:100%; height:1.12rem; line-height:1.12rem; background-color:#FF8400; color:#fff; font-size:0.37333rem; border:none; border-radius:3px; margin-bottom:0.2rem}
+.btnVerf.disabled{ background-color:#999}
+.closeBtn {width: 1.12rem; height: 1.12rem; margin: 0 auto; display: block; margin-top: 0.42666rem;}
+
+/*我也要创建活动-弹层按钮颜色*/
+.popUpTab input.tjBtn {background: #E54640;}
+
+
+
+/*-----收银台----*/
+.pay_tips{ background-color:#FFF7F5; padding:0.32rem; color:#666; margin-bottom:0.32rem}
+.gift_price{ padding:0.32rem; display:flex; justify-content:space-between; align-items:center; background-color:#fff; margin-bottom:0.32rem; font-size:0.4rem;}
+.gift_price .price{ color:#ff0000; font-size:0.64rem;}
+
+/*确认支付*/
+.pay_submit{padding:0.72rem 0 0.32rem; margin:0 0.32rem}
+.button{ background:#FEE002; border:none; height:1.306666666666667rem; width:100%; display:block; font-size:0.4266666666666667rem; border-radius:0.1333rem;cursor: pointer; -webkit-appearance: none;}
+/*-----支付结果页----*/
+.pay_result{ background-color:#fff; padding:0.68rem 0; text-align:center;}
+.pay_result img{ width:1.8rem; height:1.8rem; display:block; margin:0 auto 0.32rem;}
+
+.pay_title{ line-height:0.68rem; margin-bottom:0.32rem; font-weight:normal; font-size:0.4533333333333333rem;}
+
+/*商家位置*/
+.pay_part{ background-color:#fff; padding:0.48rem 0.32rem; line-height:0.64rem;}
+/*填写发货地址*/
+.fill_addr a{ background-color:#fee002; width:100%;color: #000;}
+
+/*收银台*/
+.pay{ background-color:#fff; min-height:1.333333333333333rem; padding:0.2666666666666667rem 0.3333333333333333rem 0.2666666666666667rem 1.973333333333333rem}
+.pay img{ width:1.333333333333333rem; height:1.333333333333333rem; position:absolute; left:0.3333333333333333rem; top:0.2666666666666667rem}
+.pay h2{ font-size:0.4533333333333333rem; font-weight:normal; margin-bottom:0.16rem;}
+.pay h2 em{ font-style:normal;}
+.pay label{ background:#fff; border:1px solid #eee; border-radius:50%; width:0.56rem; height:0.56rem; display:inline-block; position:absolute; right:0.32rem; top:50%; margin-top:-0.28rem;}
+.pay input{ width:100%; height:100%; position:absolute; left:0px; top:0px; background:#000; display:block; opacity:0;}
+.pay input+label{ border:none; background: url(../image/check.png) no-repeat; background-size:0.56rem;}
+.pay input:checked+label{ border:none; background: url(../image/checked.png) no-repeat; background-size:0.56rem;}
+
+
+
+/*购买记录*/
+.record{ background:none; border-radius:0; background:#fff; padding:0.32rem}
+.record li{ background:none; border-radius:0.13333rem; border-bottom:none;margin-bottom:0rem}
+
+.record dl dt img{ width:0.o72rem; height:0.72rem; }
+
+.copRight,.copRight span{ color:#fff}
+
+.mapBtn input{background:linear-gradient(to right, #27f9fa, #0177ff)}
+
+.moreStores a{background:linear-gradient(to right, #27f9fa, #0177ff)}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+
+/*-----谁参与了活动-内容部分---*/
+.newbuylist ul{ max-height:3.2rem; overflow:hidden}
+.newbuylist ul li{  margin:0.13333333333333333rem 0.1rem 0.13333333333333333rem 0.1rem;float: left; overflow: hidden; justify-content: space-around; font-size: 0.29333333333333333rem; text-align: center; }
+.newbuylist li span{display: block; height: 0.4rem; line-height: 0.4rem;width:0.99967rem; overflow:hidden;text-overflow:ellipsis;}
+.newbuylist img{width: 0.973rem; height: 0.973rem; border-radius:50%;border:0.0267rem solid #fff; display: block; margin: 0 auto; margin-bottom: 0.02666666666666667rem;}
+
+.qunZu .anQuan{ color:#008000}
+.qunZu .anQuan img{ width:0.5rem; height:auto; position:relative; display:inline-block; top:0.1rem }
+.qunZu .yaoQingMa p{ background:#f7f7f7; display:inline-block; border-radius:0.13rem; padding:0.065rem}
+.qunZu .yaoQingMa{ border:1px dashed #d6d6d6; border-radius:0.13rem; padding:0.32rem 0; }
+.qunZu .yaoQingMa a{ border-radius:0.065rem; background:#fcdf02; font-size:0.3rem; padding:0.1rem 0.23rem; margin-left:0.23rem}
+

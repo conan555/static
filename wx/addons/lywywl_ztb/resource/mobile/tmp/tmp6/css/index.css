@@ -1,0 +1,113 @@
+@charset "utf-8";
+body{ background:#F89CB7;}
+
+/*头部*/
+header{ background:url(../image/header_bg.jpg);}
+.block_home_slider .flex-control-paging{ bottom:0}
+
+/*活动主题*/
+.summary{text-align:center; margin:0 0.32rem; position:relative;}
+.summary section{ background-color:#E96586; border-radius:0.4rem; position:relative; z-index:1;}
+.summary p{ display:inline-block; padding:0.4rem; color:#fff; line-height:0.64rem;}
+.summary:after{ content:""; display:flex; position:absolute; width:100%; height:100%; background-color:#C04B69; right:-0.08rem; top:0.08rem; border-radius:0.4rem;}
+
+.content{ margin:0 0.32rem; background-color:#FDF0EC; padding:0.32rem; border-radius:0.4rem; border:0.0666666666666667rem solid #E96586; box-sizing:border-box;}
+
+/*标题*/
+.title{ margin:0 0.32rem 0.32rem; height:1.08rem; text-align:center; font-size:0.4533333333333333rem; color:#db496e; background:url(../image/title.png) no-repeat center; background-size:auto 100%; font-weight:normal;}
+.title span{ display:inline-block; position:relative; padding-top:0.3rem;}
+
+/*活动倒计时*/
+.countdown{ text-align:center; margin:0.64rem 0.32rem 0; font-size:0.4rem;}
+.countdown img{width:4rem; display:block; margin:0 auto -0.13333rem; }
+.countdown .content{ padding:0.32rem 0; background-color:#FFFFFF; border:0.2rem solid #E96586;}
+.countdown span{ display:inline-block; margin-right:0.267rem;}
+.countdown span em{ display:inline-flex; justify-content: center; align-items:center;text-align:center; background:#FFC0D0; border-radius:0.12rem; padding:0 0.14rem; height:0.88rem; font-size:0.48rem; font-weight:bold; color:#D54C6F; margin-right:0.1333rem;}
+
+/*轮盘*/
+.rotate{position: relative; width: 7.866666666666667rem; margin:0 auto; z-index:2;}
+.lunpai{top: 0;/* position:relative; */z-index:2;}
+.ring{position: absolute; width:7.866666666666667rem; height: 7.866666666666667rem;  left:0; top:0; background-image: url("../image/dark.png"); background-size:100%;}
+.rotate section.light{background-image: url("../image/light.png");}
+#btn{position: absolute; left: 50%; top: 50%; width: 2.24rem; height: 2.24rem; margin:-1.32rem 0 0 -1.12rem; z-index:3; background-image: url("../image/button.png"); background-size:100%;}
+/*奖品*/
+.prize{overflow: hidden;position: absolute;width:7.066666666666667rem;height:7.066666666666667rem; margin:0.4rem;border-radius: 50%;}
+.running{-o-animation: init 90s linear infinite; -ms-animation: init 90s linear infinite; -moz-animation: init 90s linear infinite; -webkit-animation: init 90s linear infinite; animation: init 90s linear infinite;}
+@keyframes init{100%{-o-transform: rotate(360deg); -ms-transform: rotate(360deg); -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);}}
+.prize li{position: absolute; left: 0; top: 0; width: 100%; height:50%; font-size: 0.32rem; font-weight: bold; line-height: 0.8rem; text-align: center; color: #f44747; -moz-transform-origin: center bottom; -webkit-transform-origin: center bottom; -o-transform-origin: center bottom; -ms-transform-origin: center bottom; transform-origin: center bottom;}
+.prize li:nth-child(1){-o-transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+.prize li:nth-child(2){-o-transform: rotate(60deg); -ms-transform: rotate(60deg); -moz-transform: rotate(60deg); -webkit-transform: rotate(60deg); transform: rotate(60deg);}
+.prize li:nth-child(3){-o-transform: rotate(120deg); -ms-transform: rotate(120deg); -moz-transform: rotate(120deg); -webkit-transform: rotate(120deg); transform: rotate(120deg);}
+.prize li:nth-child(4){-o-transform: rotate(180deg); -ms-transform: rotate(180deg); -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+.prize li:nth-child(5){-o-transform: rotate(240deg); -ms-transform: rotate(240deg); -moz-transform: rotate(240deg); -webkit-transform: rotate(240deg); transform: rotate(240deg);}
+.prize li:nth-child(6){-o-transform: rotate(300deg); -ms-transform: rotate(300deg); -moz-transform: rotate(300deg); -webkit-transform: rotate(300deg); transform: rotate(300deg);}
+.prize li span{position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin-left: -50%; border-right: 1px solid #D55675; box-sizing:border-box; -o-transform-origin: right bottom; -ms-transform-origin: right bottom; -moz-transform-origin: right bottom; -webkit-transform-origin: right bottom; transform-origin: right bottom; -o-transform: rotate(30deg) skewY(30deg); -ms-transform: rotate(30deg) skewY(30deg); -moz-transform: rotate(30deg) skewY(30deg); -webkit-transform: rotate(30deg) skewY(30deg); transform: rotate(30deg) skewY(30deg);}
+.prize li:nth-child(n) span{ background-color:#FFC6D4;}
+.prize li:nth-child(2n) span{ background-color:#FFDCE5;}
+.prize li p{overflow: hidden; position: relative; margin: 0.24rem auto 0; width: 50%; text-align: center; line-height: 0.8rem; font-size:0.3466666666666667rem; color:#e13a65;}
+.prize li em img{ display:block;width:18%; margin:0 auto 0; position:relative;}
+
+.wheel{ width:100%; overflow:hidden;}
+/*头部标题*/
+.wheel_top{ padding:1rem 0 0.32rem; text-align:center;}
+.wheel_top img{width:7.52rem;}
+/*地盘*/
+.wheel_down{ position:relative; z-index:1;}
+.wheel_down img{width:4.8rem; display:block; margin:-0.8rem auto 0;}
+.wheel_down p{ width:100%; text-align:center; color:#fff; position:absolute; bottom:0.6rem;}
+/*云*/
+.cloud_left,.cloud_right{ display:block; width:3.666666666666667rem; height:1.973333333333333rem; background:url(../image/cloud.png) no-repeat center; position:absolute; background-size:100%;}
+.cloud_left{left:-0.36rem; bottom:2.8rem;}
+.cloud_right{ width:2.56rem; background-size:100%; transform:rotateY(180deg); right:-0.12rem; bottom:6rem;}
+
+/*参与人数及当前积分*/
+.join_num{ display:flex; justify-content: space-around; align-items:center; margin:0.4rem 0.32rem 0;}
+.join_num p{ display:inline-flex; width:40%; height:1.04rem; border-radius:1.04rem; justify-content: center;align-items:center; background-color:#FE9257; color:#fff; border:1px solid #E17135}
+.join_num p:last-child{ background-color:#E96586; border:1px solid #D54C6E;}
+.join_num p span{ font-size:0.4533333333333333rem; margin-left:0.2rem}
+
+/*-----谁参与了活动-内容部分---*/
+.num ul {font-size:0.32rem; font-}
+.num ul li{ width:14.28%; padding:0.16rem; box-sizing:border-box; display:inline-block; float:left; margin:0;}
+.num li span{display: block; height: 0.4rem; line-height: 0.4rem; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.num img{width:0.8533333333333333rem; height: 0.8533333333333333rem; border-radius:50%;display: block; margin: 0 auto; margin-bottom: 0.16rem; border:none;}
+
+/*领奖记录*/
+.prize_record{ background:none;}
+.prize_record li dt img{ border-radius:50%;}
+.prize_record li dd span:nth-child(2){ width:28%;}
+.prize_record li dd span:nth-child(3){ width:38.66%; text-align:center;}
+
+/*邀请排行榜*/
+.union_rank .content{padding:0.32rem 0;}
+.union_rank .paihang li em{ right:0.32rem;}
+
+/*点击次数*/
+.click_num{ display:block;height:0.6933333333333333rem;padding:0 0.84rem 0 0.16rem;  position:fixed; top:6rem; left:0; background-color:#F95050; color:#fff; box-shadow:0 0 5px #3d8aa2; display:flex; align-items:center; z-index:9;}
+.click_num span{ width:0.9866666666666667rem; height:0.9866666666666667rem; text-align:center; border-radius:50%; position:absolute; right:-0.32rem; top:-0.12rem; background-color:#F95050; box-shadow:-3px 0 5px #e13535; display:flex;justify-content: center; align-items:center;}
+
+/*-----底部按钮--*/
+.union_fixednav a{background: #F25746; color: #fff; width:100%;}
+.union_fixednav a.pickup{ background-color:#00C77F;}
+.union_fixednav a.picked{ background-color:#FDA410;}
+
+/*我也要创建活动*/
+.createAlso input{ color:#fff; background-color:#E96586; border-radius:1.173333333333333rem}
+
+/*版权*/
+.copRight{ color:#bf2a50}
+.copRight span{ color:#980F31; }
+
+/*我也要创建活动-弹层按钮颜色*/
+.popUpTab input.tjBtn {background: #E86585;}
+
+/*多门店和地图按钮*/
+.moreStores a,.mapBtn input{ background-color:#E86585;}
+.moreStores:after,.mapBtn:after{background-color:#CB4B6C;}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}

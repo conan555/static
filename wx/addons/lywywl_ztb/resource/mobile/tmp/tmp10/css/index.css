@@ -1,0 +1,128 @@
+@charset "utf-8";
+body{ background-color:#ffc64f;}
+header{ height:5.31rem;background-image:url(../image/banner_bg.png); background-repeat:no-repeat; background-size:100% auto }
+.block_home_slider .flex-control-paging{ bottom:0}
+
+
+.summary{ padding:0.32rem; line-height:0.7rem; color:#fff; font-size:0.4rem; text-align:center; background:#e8244a; border-radius:10px;}
+
+/*-----倒计时标题----*/
+.countdown{text-align:center;}
+.countdown h4{ background-image:url(../image/title_countdown.png); width:4.093rem; height:0.93333rem; line-height:0.8rem;font-size:0.4rem; color:#ffdd41; margin:0.1333rem auto 0.2333rem auto  }
+.countdown section{background:#e8244a; border-radius:0.6667rem; padding:0.32rem}
+.countdown section span{ font-size:0.4rem; color:#ffdd41; margin-right:0.267rem;}
+.countdown section span em{ display:inline-block; line-height:0.88rem; text-align:center; background:#ffdd41; border-radius:0.267rem; padding:0 0.14rem; height:0.88rem; font-size:0.48rem; font-weight:bold; color:#e8244a; margin-right:0.1333rem; }
+
+/*-----活动标题----*/
+.openCardTitle{  }
+.openCardTitle h4{ position:relative; z-index:1;text-align:center; margin-top:0.627rem; margin-bottom:0.32rem; color:#ffdd41; margin:auto;background:url(../image/title.png); background-repeat:no-repeat; background-size:100% auto; width:4.32rem; height:1.067rem; line-height:0.8rem; font-size:0.4267rem  }
+
+
+/*-----圆角边框和圆角背景----*/
+.borSolid{ border-radius:10px; border:0.1333rem solid #e8244a; margin-top:-0.75rem; background:#ffdd41}
+.content{ padding:0.3333rem;border-radius:0.1333rem; padding-top:0.73333rem }
+
+/*-----谁参与了重置----*/
+.num img{border: 0.0267rem solid #efb53d;}
+
+/*-----排行榜重置----*/
+.record{ background:none;}
+.record li{ border-bottom:1px dashed #efb53d}
+
+.paihang li span{ color:#b1801b}
+.paihang li{ border-bottom:1px solid #efb53d}
+
+.mapBtn input,.moreStores a{background:#e8244a}
+.mapBtn:after,.moreStores:after{background:#b42133}
+
+.createAlso input{ color:#ffc64f;background:#e8244a;}
+
+.copRight{ color:#000}
+.copRight span{ color:#B32032; }
+.fixedNav a{ background:#e8244a}
+.fixedNav a:nth-child(2){background:#f3e030; color:#e8244a}
+/*---剩余次数-----*/
+.surplus{ height:1rem; line-height:1rem; background:#e8244a; border-radius:0.3467rem 0.3467rem 0 0; width:6.21333rem; margin:auto; text-align:center; font-size:0.413rem; color:#fff}
+.surplus em{ color:#ffdd41}
+
+
+/*--------*/
+#draw{ height:8.7rem; background:url(../image/nihong.gif) no-repeat; background-size:100%;}
+.tips{width:100%; margin:0.4rem auto; text-align: center; font-size: 0.40rem; line-height: 0.6rem; color: #B42133; position:relative;}
+.h1rem{ height:0.8rem}
+.flip_wrap {
+	width:33.3333%;
+	float:left;
+	perspective:5000px;/*perspective属性定义3D元素距视图的距离,以像素计。该属性允许您改变 3D 元素查看 3D 元素的视图。*/
+	-webkit-perspective:5000px;
+	-moz-perspective:5000px;
+	-ms-perspective:5000px;
+	-o-perspective:5000px;
+}
+.flip {
+	width:100%;
+	height:2.5rem;
+	backface-visibility:hidden;/*背对屏幕时隐藏*/
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	transition: all 1s ease;/*为翻牌添加过渡效果*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transform-style: preserve-3d;	/*子元素将保留其 3D 位置。*/
+}
+.side {
+	width:100%;
+	height:100%;
+	position: absolute;
+	left:0;	/*让背面和正面重叠*/
+}
+.side img {
+	display:block; 
+	width:100%;
+	height:auto
+}
+.front {
+	z-index:2;	/*让正面朝上*/
+}
+.back {
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	z-index:10;
+}
+/*.flip_wrap:hover .flip {
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+}*/
+.flipOn {
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+}
+figure img{ display:block}
+
+.num ul li{ margin:0.13333333333333333rem 0.07666666666666667rem 0.13333333333333333rem 0.09rem}
+.popUpTab input.tjBtn{ background:#e8244a}
+
+
+/*多门店字体颜色*/
+.stores li{ border-bottom:1px solid #EEB440;}
+.stores .c9,.stores li div{ color:#666}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}

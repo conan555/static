@@ -1,0 +1,73 @@
+@charset "utf-8";
+body{ background:#EDEBFE;}
+
+/*头部*/
+header{ padding:1.2rem 0 0; height:6.84rem;}
+header img{ width:8.533333333333333rem; height:auto; margin:0 auto; display:block;}
+.shake_element{ position:absolute; left:0; top:0; width:100%; height:auto; z-index:0;}
+.block_home_slider{ z-index:2;}
+.block_home_slider .flex-control-paging{ bottom:0}
+
+/*活动主题*/
+.summary{text-align:center; margin:1.6rem 0.32rem 0; position:relative; z-index:1;}
+.summary section{ background-color:#fff; border-radius:0.12rem; color:#ff0024; border-top-left-radius:0.4rem; border-top-right-radius:0.4rem;}
+.summary p{ display:inline-block; padding:0.92rem 0.4rem;line-height:0.64rem;}
+
+.content{ margin:0 0.32rem; background-color:#fff; padding:0.68rem 0.4rem 0.4rem; border-radius:0.32rem; box-sizing:border-box; box-shadow:0 0.16rem 0.16rem #E3DFF7;}
+
+/*标题*/
+.title{ width:5.2rem; height:0.9733333333333333rem; margin:0 auto -0.28rem; text-align:center; font-size:0.4rem; color:#fff; font-weight:normal; border-radius:0.08rem; position:relative; background: -webkit-linear-gradient(left top, #614ad6, #462ad8); /* Safari 5.1 - 6.0 */ background: -o-linear-gradient(bottom right, #614ad6, #462ad8); /* Opera 11.1 - 12.0 */ background: -moz-linear-gradient(bottom right,#614ad6, #462ad8); /* Firefox 3.6 - 15 */ background: linear-gradient(to bottom right, #614ad6, #462ad8); /* 标准的语法 */ }
+.title:before,.title:after{ content:""; display:inline-block; width:0; height:0; position:absolute; top:0.26rem;}
+.title:before{ border-bottom:0.44rem solid #422BBC; border-left:0.4rem solid transparent; left:-0.4rem;}
+.title:after{ border-bottom:0.44rem solid #422BBC; border-right:0.4rem solid transparent; right:-0.4rem;}
+.title span{ display:flex; justify-content:center; align-items:center; height:100%; position:relative;}
+
+/*活动倒计时*/
+.countdown{ text-align:center; margin:0 0.32rem; font-size:0.4rem; background-color:#fff; border-bottom-left-radius:0.4rem; border-bottom-right-radius:0.4rem; padding-bottom:1.04rem;}
+.countdown h5{ margin:0 0.4rem 0.32rem; display:flex; justify-content:center; align-items:center; height:0.72rem; background-size:auto 100%; color:#614bdc; font-weight:normal; overflow:hidden; position:relative;}
+.countdown h5:before,.countdown h5:after{ content:""; display:block; width:50%; position:absolute; top:50%; height:0.04rem; background-color:#644EE0;}
+.countdown h5:before{ right:50%; margin-right:2rem;}
+.countdown h5:after{ left:50%; margin-left:2rem;}
+.countdown_box{ margin:0 0.4rem; height:1.066666666666667rem; border-radius:1.066666666666667rem; background-color:#624BD4;}
+.countdown span{display:inline-block; color:#fff;}
+.countdown span em{ display:inline-flex; justify-content: center; align-items:center;text-align:center; border-radius:0.267rem; padding:0 0.14rem; height:1.066666666666667rem;}
+
+/*摇一摇区域*/
+.tips{width:100%; position:absolute; bottom:-0.8rem; font-size: 0.38rem; line-height: 0.6rem; color: #fff;}
+.tips p{ position:absolute; width:100%; text-align:center; top:0; color:#c31600; line-height:1.1rem;}
+#change{margin: 0 0.1rem; font-size:0.5rem;}
+.canyu{ color:#999999; text-align:center; margin-top:1.0rem;font-size: 0.38rem;}
+
+/*-----谁参与了活动-内容部分---*/
+.num ul {font-size:0.32rem; font-}
+.num ul li{ width:14.28%; padding:0.16rem; box-sizing:border-box; display:inline-block; float:left; margin:0;}
+.num li span{display: block; height: 0.4rem; line-height: 0.4rem; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.num img{width:0.8533333333333333rem; height: 0.8533333333333333rem; border-radius:50%;display: block; margin: 0 auto; margin-bottom: 0.16rem; border:none;}
+
+/*领奖记录*/
+.prize_record{ background:none;}
+.prize_record li dt img{ border-radius:50%;}
+.prize_record li dd span:nth-child(2){ width:28%;}
+.prize_record li dd span:nth-child(3){ width:38.66%; text-align:center;}
+
+/*我也要创建活动*/
+.createAlso{width:5.386666666666667rem; height:1.173333333333333rem; border-radius:1.28rem; position:relative; margin:0 auto; border:0.08rem solid #D5CFF4;}
+.createAlso input{color:#fff; background-color:#624BD4; color:#fff; border-radius:1.173333333333333rem; position:relative; z-index:2;}
+
+/*版权*/
+.copRight{ color:#614ad6; padding-bottom:1.76rem; background:url(../image/footer_bg.png) no-repeat center bottom; background-size:100%;}
+.copRight span{ color:#903ED3; }
+
+/*我也要创建活动-弹层按钮颜色*/
+.popUpTab input.tjBtn {background: #634CD2;}
+
+/*多门店和地图按钮*/
+.moreStores a,.mapBtn input{ background-color:#624BD4;}
+.moreStores:after,.mapBtn:after{background-color:#4331B2;}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}

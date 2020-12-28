@@ -1,0 +1,84 @@
+@charset "utf-8";
+body{ background-color:#4ea7f1;background-image:url(../image/dots.png); background-size:contain}
+header{  padding-top:0.4rem;}
+.block_home_slider .flex-control-paging{ bottom:0}
+.element1{ height:2.65333rem;background-image:url(../image/element01.png);background-size:100% auto  }
+.element2{ height:7.29333rem;background-image:url(../image/element02.png);background-size:100% auto  }
+.summary{ padding:0.53333rem 0.53333rem 0 0.53333rem; line-height:0.7rem; color:#fff; font-size:0.45rem; text-align:center}
+.block_home_slider{ margin-top:-0.3333rem;}
+
+/*-----倒计时标题----*/
+.countdown{text-align:center;}
+.countdown h4{ background-image:url(../image/title_countdown.png);background-size:100% auto;font-size:0.4rem; color:#fff; margin:0.5333rem 0  }
+/*-----横线装饰
+.countdown h4 em{display:inline-block; width:1.36rem; height:0.12rem; border-radius:10px; right:-1rem; background:#fff; top:0.2rem;  }
+.countdown h4 em:first-child{display:inline-block; width:1.36rem; height:0.12rem; border-radius:10px; left:-0.6rem; background:#fff; top:0.2rem;}----*/
+/*-----圆点-
+.countdown h4 span{ font-size:0.4rem; color:#fff;  display:inline-block; position:relative }
+.countdown h4 span:before{ position:absolute; content:'';width:0.12rem; height:0.12rem; border-radius:50%;left:-0.32rem; background:#fff; top:0.2rem;}
+.countdown h4 span:after{ position:absolute; content:''; width:0.12rem; height:0.12rem; border-radius:50%; right:-0.32rem;background:#fff; top:0.2rem;}---*/
+
+
+.countdown section span{ font-size:0.4rem; color:#fff; margin-right:0.267rem;}
+.countdown section span em{ display:inline-block; line-height:0.88rem; text-align:center; background:#fff; border-radius:0.267rem; padding: 0 0.14rem;; height:0.88rem; font-size:0.48rem; font-weight:bold; color:#4ea7f1; margin-right:0.1333rem; }
+
+/*-----活动标题----*/
+.giftTitle{ background:url(../image/title.png); background-repeat:no-repeat; background-size:100% auto }
+.giftTitle h4{ text-align:center; margin-top:0.627rem; margin-bottom:0.32rem}
+.giftTitle h4 span{ height:1.1867rem; line-height:1.1867rem; display:inline-block; margin:auto; padding:0 0.67rem; background:#f4c51d; border-radius:0.67rem; font-size:0.453rem; position:relative; z-index:1}
+
+/*-----圆角边框和圆角背景----*/
+.borDashed{ border-radius:10px; padding:0.0933333rem; border:0.0667rem dashed #fff;}
+.content{ background:#fff; padding:0.3333rem;border-radius:0.1333rem; }
+
+/*-----支付结果页----*/
+.pay_result{ background-color:#fff; padding:0.68rem 0; text-align:center;}
+.pay_result img{ width:1.8rem; height:1.8rem; display:block; margin:0 auto 0.32rem;}
+/*-----最新购买----*/
+.pay_title{ line-height:0.68rem; margin-bottom:0.32rem; font-weight:normal; font-size:0.4533333333333333rem;}
+.pay_list{ padding:0.32rem; background-color:#fff;}
+.pay_list li{ width:12.4%;}
+.pay_list li img{ border:none;}
+/*商家位置*/
+.pay_part{ background-color:#fff; padding:0.48rem 0.32rem; line-height:0.64rem;}
+/*填写发货地址*/
+.fill_addr a{ background-color:#fee002; width:100%;color: #000;}
+
+
+/*-----收银台----*/
+.pay_tips{ background-color:#FFF7F5; padding:0.32rem; color:#666; margin-bottom:0.32rem}
+.gift_price{ padding:0.32rem; display:flex; justify-content:space-between; align-items:center; background-color:#fff; margin-bottom:0.32rem; font-size:0.4rem;}
+.gift_price .price{ color:#ff0000; font-size:0.64rem;}
+
+/*确认支付*/
+.pay_submit{padding:0.72rem 0 0.32rem; margin:0 0.32rem}
+.button{ background:#FEE002; border:none; height:1.306666666666667rem; width:100%; display:block; font-size:0.4266666666666667rem; border-radius:0.1333rem;cursor: pointer; -webkit-appearance: none;}
+
+/*收银台*/
+.pay{ background-color:#fff; min-height:1.333333333333333rem; padding:0.2666666666666667rem 0.3333333333333333rem 0.2666666666666667rem 1.973333333333333rem}
+.pay img{ width:1.333333333333333rem; height:1.333333333333333rem; position:absolute; left:0.3333333333333333rem; top:0.2666666666666667rem}
+.pay h2{ font-size:0.4533333333333333rem; font-weight:normal; margin-bottom:0.16rem;}
+.pay h2 em{ font-style:normal;}
+.pay label{ background:#fff; border:1px solid #eee; border-radius:50%; width:0.56rem; height:0.56rem; display:inline-block; position:absolute; right:0.32rem; top:50%; margin-top:-0.28rem;}
+.pay input{ width:100%; height:100%; position:absolute; left:0px; top:0px; background:#000; display:block; opacity:0;}
+.pay input+label{ border:none; background: url(../image/check.png) no-repeat; background-size:0.56rem;}
+.pay input:checked+label{ border:none; background: url(../image/checked.png) no-repeat; background-size:0.56rem;}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+
+/*购买详情 最新购买用户*/
+.newbuylist ul{ max-height:3.2rem; overflow:hidden}
+.newbuylist ul li{  margin:0.13333333333333333rem 0.1rem 0.13333333333333333rem 0.1rem;float: left; overflow: hidden; justify-content: space-around; font-size: 0.29333333333333333rem; text-align: center; }
+.newbuylist li span{display: block; height: 0.4rem; line-height: 0.4rem;width:0.99967rem; overflow:hidden;text-overflow:ellipsis;}
+.newbuylist img{width: 0.973rem; height: 0.973rem; border-radius:50%;border:0.0267rem solid #fff; display: block; margin: 0 auto; margin-bottom: 0.02666666666666667rem;}
+
+.qunZu .anQuan{ color:#008000}
+.qunZu .anQuan img{ width:0.5rem; height:auto; position:relative; display:inline-block; top:0.1rem }
+.qunZu .yaoQingMa p{ background:#f7f7f7; display:inline-block; border-radius:0.13rem; padding:0.065rem}
+.qunZu .yaoQingMa{ border:1px dashed #d6d6d6; border-radius:0.13rem; padding:0.32rem 0; }
+.qunZu .yaoQingMa a{ border-radius:0.065rem; background:#fcdf02; font-size:0.3rem; padding:0.1rem 0.23rem; margin-left:0.23rem}

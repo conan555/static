@@ -1,0 +1,91 @@
+@charset "utf-8";
+body{ background:#6F1DB3;}
+
+/*头部*/
+header{ padding-top:1.2rem; height:8rem;}
+header img{ width:8.533333333333333rem; height:auto; margin:0 auto; display:block;}
+.tiger_element{ position:absolute; left:0; top:0; width:100%; height:auto;}
+.block_home_slider{ z-index:2;}
+.block_home_slider .flex-control-paging{ bottom:0}
+
+/*活动主题*/
+.summary{text-align:center; margin:1.6rem 0.32rem 0; position:relative; z-index:2;}
+.summary section{ background-color:#6F1DB3; border-radius:0.12rem; color:#fff; border:0.1066666666666667rem solid #A943E0;}
+.summary p{ display:inline-block; padding:0.4rem;line-height:0.64rem;}
+
+.content{ margin:0 0.32rem; background-color:#8130C3; padding:0.4rem; border-radius:0.32rem; box-sizing:border-box; border:0.2rem solid #6C1AA9; color:#fff;}
+
+/*标题*/
+.title{ height:0.88rem; line-height:0.88rem; text-align:center; font-size:0.48rem; color:#fff;}
+.title span{ display:inline-block; position:relative;}
+.title span:before,.title span:after{ content:""; display:inline-block; width:1.386666666666667rem; height:0.4266666666666667rem; background:url(../image/title.png) no-repeat; background-size:100%; position:absolute; top:50%; margin-top:-0.2133333333333334rem;}
+.title span:before{left:-1.76rem;}
+.title span:after{right:-1.76rem; transform:rotateY(180deg)}
+
+/*活动倒计时*/
+.countdown{ text-align:center; margin:0.8rem 0.32rem 0; font-size:0.4rem;}
+.countdown h5{height:1.626666666666667rem; background:url(../image/countdown_title.png) no-repeat center; background-size:auto 100%; color:#fff; font-weight:normal; font-size:0.5333333333333333rem;}
+.countdown span{ display:inline-flex; justify-content: center; align-items:center;margin-right:0.267rem; color:#fff; font-size:0.5066666666666667rem;}
+.countdown span em{ display:inline-flex; justify-content: center; align-items:center;text-align:center; background:#9036CC; border-radius:0.12rem; padding:0 0.14rem; height:1rem; font-size:0.6666666666666667rem; margin-right:0.1333rem;}
+
+/*游戏区域*/
+.gamebox{ width:94%; margin:0 auto; position:relative; margin-top:-0.666rem;}
+.box{position:absolute; top:0; width:90%; height:75.6%; top:11%; left:5%; border-radius:10px; overflow:hidden;}
+.box .roll{float: left; width: 33.33%; height:100%;}
+.box .roll section{overflow: hidden; position: relative; margin: auto; width:100%; height:100%;}
+.box .roll ul{position: absolute; left: 0; top: -1.6rem; width: 100%; height: 7.6rem; text-align:center;}
+.box .roll ul li{width: 2.8rem; height: 2.533333rem; background-position: center; font-size:0;}
+.box .roll ul li img{ margin:0 auto; width:50%; height:auto; vertical-align:middle;}
+.box .roll ul li .verticalAlign{ display:inline-block; width:1px; height:100%; margin-left:-1px; vertical-align:middle;}
+.shadow{position: absolute; left:0; top:0; width:100%;height: 100%; z-index:1; background:url(../image/shadow.png) repeat-x center center; background-size:100% 100%;}
+/*信息显示*/
+.txt{position:relative; margin:0.2rem 0;}
+.txt p{ position:absolute; display:block; top:0; left:20%; width:60%; height:100%; text-align: center; line-height: 1.15rem; font-size: 0.34rem; color: #fff;}
+/*按钮区域*/
+.box-btn{position: relative; width:100%;}
+.box-btn .go{position: absolute; left: 46%; top: 50%; margin: -1.3rem 0 0 -1rem; width: 2.88rem; height: 2.2rem;}
+.box-btn #hand{position: absolute; left: 60%; top: 50%; margin-top: -0.76rem; width: 1.56rem; height: 1.53333333rem; background-image: url("../image/hand.png"); background-size:100%; -o-transform-origin: center bottom; -ms-transform-origin: center bottom; -moz-transform-origin: center bottom; -webkit-transform-origin: center bottom; transform-origin: center bottom;}
+.shak{-o-animation: shak .5s infinite alternate; -ms-animation: shak .5s infinite alternate; -moz-animation: shak .5s infinite alternate; -webkit-animation: shak .5s infinite alternate; animation: shak .5s infinite alternate;}
+@keyframes shak{100%{-o-transform: rotate(-10deg); -ms-transform: rotate(-10deg); -moz-transform: rotate(-10deg); -webkit-transform: rotate(-10deg); transform: rotate(-10deg);}}
+
+
+
+/*-----谁参与了活动-内容部分---*/
+.num ul {font-size:0.32rem; font-}
+.num ul li{ width:14.28%; padding:0.16rem; box-sizing:border-box; display:inline-block; float:left; margin:0;}
+.num li span{display: block; height: 0.4rem; line-height: 0.4rem; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.num img{width:0.8533333333333333rem; height: 0.8533333333333333rem; border-radius:50%;display: block; margin: 0 auto; margin-bottom: 0.16rem; border:none;}
+
+/*领奖记录*/
+.prize_record{ background:none;}
+.prize_record li{ color:#fff;}
+.prize_record li dt img{ border-radius:50%;}
+.prize_record li dd span:nth-child(2){ width:28%;}
+.prize_record li dd span:nth-child(3){ width:38.66%; text-align:center;}
+
+/*我也要创建活动*/
+.createAlso{width:5.466666666666667rem; border:0.2rem solid #6C1AA9; border-radius:1.28rem; position:relative; margin:0 auto;}
+.createAlso input{height:100%; color:#fff; background-color:#8130C3; color:#fff; border-radius:1.173333333333333rem; position:relative; z-index:2;}
+
+/*版权*/
+.copRight{ color:#a34fe8;}
+.copRight span{ color:#B471F0;}
+
+/*我也要创建活动-弹层按钮颜色*/
+.popUpTab input.tjBtn {background: #8131C1;}
+
+/*多门店字体颜色*/
+.stores a{ color:#fff;}
+.stores li{ border-bottom:1px solid #9843DB;}
+.stores .c9,.stores li div{ color:#D8A5FF}
+
+/*多门店和地图按钮*/
+.moreStores a,.mapBtn input{ background-color:#A758EA;}
+.moreStores:after,.mapBtn:after{background-color:#5F1A9D;}
+
+/*新增左侧我也要创建活动*/
+.setUp{display: block; position: fixed;bottom: 2rem;left: 0.13rem;width: 1.2rem;height: 2.533rem;z-index: 5;}
+.setUp a{ display:block}
+.setUp a img{ display:block; width:100%; -o-animation: icon-shake 1.5s linear infinite; -ms-animation: icon-shake 1.5s linear infinite; -moz-animation: icon-shake 1.5s linear infinite; -webkit-animation: icon-shake 1.5s linear infinite; animation: icon-shake 1.5s linear infinite; }
+@-webkit-keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
+@keyframes icon-shake{from{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);} 10%, 20%{-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);} 30%, 50%, 70%, 90%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);} 40%, 60%, 80%{-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);} to{-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1);}}
